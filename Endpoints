@@ -1,0 +1,13 @@
+End points             Method               Descriptions                                      Response Example
+
+/products             Get                It will going to fetch all product detail.              {“product”:[{id:1, name:  Iffat ,price:$50, stock:50,
+                                                                                                 Status: available }]}
+
+/order                  Post              It will going to fetch all the order detail.           {“order”:[{orderid:10, status: Ongoing 
+                                                                                                  Customerid:201,product:1}]}
+
+/payment               Post              It will going to process payment for an order.              {“payment”:[{paymentid:2 status :Ongoing                                                                                         p                                                                                                                                                  paymentDate:15.1.20}]}
+
+/shipment                Get                It will going to fetch all the shipment detail.              {“shipment…………………………………………………}]}
+
+/customer-history        Get                 It will going to fetch all the customer order history.   {“custom-history……………………………..}]}
